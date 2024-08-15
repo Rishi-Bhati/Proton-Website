@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: 200%;
   backdrop-filter: blur(50px); */
+  overflow-x: hidden;
 
 }
 
@@ -83,7 +84,12 @@ header {
   z-index: -1;
 }
 
-.background span {
+#bg-vdo {
+  position: fixed;
+  height: fit-content;
+  width: fit-content;
+}
+/* .background span {
   width: 20vmin;
   height: 20vmin;
   border-radius: 20vmin;
@@ -266,7 +272,7 @@ header {
   animation-delay: -49s;
   transform-origin: 16vw 16vh;
   box-shadow: 40vmin 0 5.592424462698277vmin currentColor;
-}
+} */
 
 .main {
   margin: 40px auto; /* Margin for spacing from top and bottom */
@@ -274,17 +280,18 @@ header {
 }
 
 .vision, .mission {
-  background-color: #fff;
+  background-color: #ffffff31;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
   text-align: left;
+
 }
 
 .vision h1, .mission h1 {
   font-size: 24px;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -298,10 +305,23 @@ header {
 
 .vision p, .mission p {
   font-size: 16px;
-  color: #666;
+  color: #ffffff;
   line-height: 1.6;
   margin-top: 10px;
 }
+
+.upper {
+  position: relative;
+  display: flex; /* Add flexbox layout */
+  flex-wrap: wrap; /* Allow elements to wrap to the next line */
+  justify-content: space-between; /* Distribute elements evenly */
+}
+
+.vision, .mission {
+  flex-basis: 60%; /* Set the width of each element */
+  margin: 20px;
+}
+
 
 .upevts {
   color: #fff;
@@ -309,6 +329,7 @@ header {
   padding: 20px;
   margin-bottom: 20px;
   text-align: left;
+  padding-left: 4px;
 }
 
 .upevts hr {
