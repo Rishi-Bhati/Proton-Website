@@ -1,4 +1,13 @@
 /* From Uiverse.io by adamgiebl */ 
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit';
+    background: linear-gradient();
+}
 button {
     font-family: inherit;
     font-size: 20px;
@@ -52,4 +61,3 @@ button {
       transform: translateY(-0.1em);
     }
   }
-  
