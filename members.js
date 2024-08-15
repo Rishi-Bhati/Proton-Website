@@ -1,10 +1,14 @@
 const swiper = new Swiper('.slider-wrapper', {
     
     loop: true,
+    grabCursor: true,
+    spaceBetween: 30,
   
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
+      dynamicBullets: true,
     },
   
     // Navigation arrows
@@ -16,12 +20,13 @@ const swiper = new Swiper('.slider-wrapper', {
         0: {
             slidesPerView: 1
         },
-        620: {
+        600: {
             slidesPerView: 2
         },
-        1024: {
+        1028: {
             slidesPerView: 3
         }
+        
     }
 
   });
