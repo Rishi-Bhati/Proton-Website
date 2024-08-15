@@ -111,7 +111,6 @@ header {
 }
 
 .text1 h2 {
-    font:  "Fira Sans", sans-serif;
     font-size: 32px;
     color: #dadada;
     margin-bottom: 10px;
@@ -124,6 +123,7 @@ header {
     color: #cccccc;
 }
 
+  
 .text2 {
     text-align: right;
     flex: 1;
