@@ -5,14 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact-Us</title>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="background">
+        <video autoplay loop muted>
+            <source src="assets\videos\Comp_8_8.mp4" type="video/mp4" id="bg-vdo"/>
+          </video>
+        <!-- <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span> -->
+    </div>
     <div class="contact-container">
-        <form action="" class="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
             <div class="contact-left-title">
-                <h2>Get in touch</h2>
+                <h2 style="color:aliceblue;">Get in touch</h2>
                 <hr>
             </div>
+            <input type="hidden" name="access_key" value="bf08ac3f-8c18-4778-9f3b-a2d02cfc72c7">
             <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
             <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>

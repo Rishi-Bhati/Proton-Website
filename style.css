@@ -84,7 +84,9 @@ header {
   z-index: -1;
 }
 
+
 #bg-vdo {
+  
   position: fixed;
   height: fit-content;
   width: fit-content;
