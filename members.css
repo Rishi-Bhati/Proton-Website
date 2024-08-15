@@ -8,13 +8,15 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body {
+.body-flag {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #26346f;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
 }
+
 
 .slider-wrapper {
     overflow: hidden;
