@@ -30,7 +30,7 @@ body{
     border: none;
     width: 120px;
     height: 5px;
-    background-color: aliceblue;
+    background-color: royalblue;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -123,3 +123,4 @@ button {
         display: none;
     }
 }
+
