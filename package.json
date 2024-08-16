@@ -1,14 +1,14 @@
 {
   "name": "proton-website",
   "version": "1.0.0",
-  "main": "script.js",
+  "description": "A static website for the Proton project",
   "scripts": {
+    "start": "serve -s public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "package-name": "^0.1.0"
+    "serve": "^14.2.3"
   }
 }
