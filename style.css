@@ -110,7 +110,7 @@ header {
 }
 
 .vision h1, .mission h1 {
-  font-size: 24px;
+  font-size: 40px;
   color: #dadada;
   margin-bottom: 10px;
 }
@@ -125,7 +125,7 @@ header {
 
 .vision p, .mission p {
   font-family: Georgia, serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #cccccc;
   line-height: 1.6;
   margin-top: 10px;
@@ -133,6 +133,7 @@ header {
 
 .upper {
   position: relative;
+  top: 5rem;
   display: flex; /* Add flexbox layout */
   flex-wrap: wrap; /* Allow elements to wrap to the next line */
   justify-content: space-between; /* Distribute elements evenly */
@@ -146,6 +147,7 @@ header {
 
 .upevts {
   margin-left: 36px;
+  margin-top: 13rem;
   color: #dadada;
   border-radius: 8px;
   padding: 20px;
@@ -166,7 +168,7 @@ header {
   margin: 20px auto;
   text-align: center;
   border: 2px solid #ddd; /* Optional: border around the box */
-  padding: 10px;
+  /* padding: 10px; */
   box-sizing: border-box; /* Ensures padding is included in the width/height */
   position: relative;
   background-color: #f4f4f4; /* Optional: background color */
@@ -189,9 +191,87 @@ header {
   background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
   color: #fff;
   padding: 5px;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   border-radius: 10px;
 }
 
+footer {
+  background-color: #25252585;
+  color: #fff;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  backdrop-filter: blur(10px);
+  padding-bottom: 20px;
+}
+
+.footer-links {
+  padding-top: 18px;
+  flex-basis: 30%;
+}
+
+
+.footer-links h2 {
+  font-size: 130%;
+}
+
+.footer-social {
+  flex-basis: 20%;
+  margin-top: 40px;
+}
+
+.footer-social h2 {
+  font-size: 130%;
+}
+
+
+.footer-copyright {
+  flex-basis: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li,
+.footer-social li {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ccc;
+}
+
+.fab {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-copyright p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
 
