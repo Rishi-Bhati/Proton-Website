@@ -61,10 +61,11 @@ header {
 }
 
 .nav-links a:hover {
-  color: rgb(106, 106, 228);
+  color: rgba(104, 223, 108, 0.801);
   /* background-color: #575757; */
   border-radius: 5px;
 }
+
 
 
 @keyframes move {

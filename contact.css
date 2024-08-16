@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Outfit';
+    /* font-family: 'Outfit'; */
+    font-family: Arial, sans-serif;
 }
 
 .background {
@@ -94,6 +95,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     padding-right: 25rem;
+    padding-left: 5rem ;
 }
 .contact-left{
     display: flex;
@@ -112,7 +114,7 @@ header {
     border: none;
     width: 120px;
     height: 5px;
-    background-color: royalblue;
+    background-color: rgb(73, 65, 225);
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -135,7 +137,7 @@ header {
 }
 
 .contact-inputs:focus {
-    border: 2px solid #0063dd;
+    border: 2px solid rgb(73, 65, 225);
 }
 .contact-inputs::placeholder{
     color:rgb(35, 35, 35);
@@ -143,7 +145,7 @@ header {
 button {
     font-family: inherit;
     font-size: 20px;
-    background: royalblue;
+    background: rgb(73, 65, 225);
     color: white;
     padding: 0.7em 1em;
     padding-left: 0.9em;
