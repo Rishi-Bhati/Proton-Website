@@ -5,7 +5,7 @@
     margin: 0;
     padding:0 ;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
 }
 
 .body-flag {
@@ -72,130 +72,132 @@
 
 
 .card-list .card-item .message-button {
-    background-color: #fff;
-    border: 1px solid #0077b5;
-    padding: 5px;
-    position: relative;
-    width: 7.2em;
-    height: 2em;
-    transition: 0.5s;
-    font-size: 17px;
-    border-radius: 0.4em;
-  }
-  
-  .card-list .card-item .message-button p {
-    font-size: smaller;
-    position: absolute;
-    top: 0.5em;
-    left: 1.7em;
-    margin: 0;
-    padding: 0;
-    transition: .7s;
-    color: #3733ad;
-  }
-  
-  .card-list .card-item .message-button svg {
-    position: absolute;
-    top: 0.45em;
-    right: 0.5em;
-    margin: 0;
-    padding: 0;
-    opacity: 0;
-    transition: 0.7s;
-    height: 1em;
-    fill: #fff
-  }
-  
-  .card-list .card-item .message-button:hover p {
-    left: 0.8em;
-    color: #fff
-  }
-  
-  .card-list .card-item .message-button:hover svg {
-    opacity: 1;
-  }
-  
-  .card-list .card-item .message-button:hover {
-    background-color: #0077b5;
-  }
+  background-color: #fff;
+  border: 1px solid #0077b5;
+  padding: 5px;
+  position: relative;
+  width: 7.2em;
+  height: 2em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.4em;
+}
 
-  footer {
-    background-color: #25252585;
-    color: #fff;
-    /* padding: 20px; */
-    text-align: center;
-  }
-  
-  .footer-container {
-    max-width: 100%;
-    margin: 0;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    backdrop-filter: blur(10px);
-    padding-bottom: 20px;
-  }
-  
-  .footer-links {
-    padding-top: 18px;
-    flex-basis: 30%;
-  }
-  
-  
-  .footer-links h2 {
-    font-size: 130%;
-  }
-  
-  .footer-social {
-    flex-basis: 20%;
-    margin-top: 40px;
-  }
-  
-  .footer-social h2 {
-    font-size: 130%;
-  }
-  
-  
-  .footer-copyright {
-    flex-basis: 50%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .footer-links ul,
-  .footer-social ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-links li,
-  .footer-social li {
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-  
-  .footer-links a,
-  .footer-social a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .footer-links a:hover,
-  .footer-social a:hover {
-    color: #ccc;
-  }
-  
-  .fab {
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  
-  .footer-copyright p {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  
+.card-list .card-item .message-button p {
+  font-size: smaller;
+  position: absolute;
+  top: 0.5em;
+  left: 1.7em;
+  margin: 0;
+  padding: 0;
+  transition: .7s;
+  color: #3733ad;
+}
+
+.card-list .card-item .message-button svg {
+  position: absolute;
+  top: 0.45em;
+  right: 0.5em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.7s;
+  height: 1em;
+  fill: #fff
+}
+
+.card-list .card-item .message-button:hover p {
+  left: 0.8em;
+  color: #fff
+}
+
+.card-list .card-item .message-button:hover svg {
+  opacity: 1;
+}
+
+.card-list .card-item .message-button:hover {
+  background-color: #0077b5;
+}
+
+
+footer {
+  width: 100%;
+  background-color: #25252585;
+  color: #fff;
+  /* padding: 20px; */
+  text-align: center;
+  font-family: 'Outfit';
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  backdrop-filter: blur(10px);
+  padding-bottom: 20px;
+}
+
+.footer-links {
+  padding-top: 18px;
+  flex-basis: 30%;
+}
+
+
+.footer-links h2 {
+  font-size: 130%;
+}
+
+.footer-social {
+  flex-basis: 20%;
+  margin-top: 40px;
+}
+
+.footer-social h2 {
+  font-size: 130%;
+}
+
+
+.footer-copyright {
+  flex-basis: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li,
+.footer-social li {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ccc;
+}
+
+.fab {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-copyright p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
   
