@@ -188,7 +188,7 @@ header {
 
 .evts {
   display: flex;
-  width: 70%; /* Example width */
+  width: 50%; /* Example width */
   height: auto; /* Height to maintain 16:10 ratio (width / 16 * 10) */
   margin: 20px auto;
   text-align: center;
