@@ -188,6 +188,8 @@ footer {
 }
 
 .footer-container {
+  position: relative;
+  bottom: 0;
   width: 100%;
   margin: 0;
   /* display: flex;
