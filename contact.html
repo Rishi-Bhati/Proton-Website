@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact-Us</title>
     <link rel="stylesheet" href="contact.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 <body>
+  <div id="preloader">
+    <div class="terminal-loader">
+      <div class="terminal-header">
+        <div class="terminal-title">Status</div>
+        <div class="terminal-controls">
+          <div class="control close"></div>
+          <div class="control minimize"></div>
+          <div class="control maximize"></div>
+        </div>
+      </div>
+      <div class="text">Loading...</div>
+    </div>
+  </div>
   <header>
     <nav class="navbar">
         <div class="logo">
@@ -34,7 +47,7 @@
     <div class="contact-container">
         <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
             <div class="contact-left-title">
-                <h2 style="color:rgb(191, 180, 255);">Get in touch</h2>
+                <h2 style="color:royalblue;">Get in touch</h2>
                 <hr>
             </div>
             <input type="hidden" name="access_key" value="bf08ac3f-8c18-4778-9f3b-a2d02cfc72c7">
@@ -79,7 +92,7 @@
         <div class="footer-social">
           <h2>Follow Us</h2>
           <ul>
-            <!-- <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li> -->
+            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -91,7 +104,17 @@
       </div>
     </footer>
   
-  
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        function myGeeks() {
+          loader.style.display="none";
+        }
+
+       setTimeout(myGeeks,600);
+        
+      })
+  </script>
     
 </body>
 </html>
