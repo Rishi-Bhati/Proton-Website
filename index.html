@@ -7,9 +7,22 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+    
 </head>
 <body>
+  <div id="preloader">
+    <div class="terminal-loader">
+      <div class="terminal-header">
+        <div class="terminal-title">Status</div>
+        <div class="terminal-controls">
+          <div class="control close"></div>
+          <div class="control minimize"></div>
+          <div class="control maximize"></div>
+        </div>
+      </div>
+      <div class="text">Loading...</div>
+    </div>
+  </div>
     
 
   <header>
@@ -64,17 +77,17 @@
           <div class="footer-links">
             <h2>Quick Links</h2>
             <ul>
-              <li id="home"><a href="index.html" >Home</a></li>
-              <li><a href="members.html" id="Members">Members</a></li>
-              <li><a href="#faculty" id="Faculty">Faculty</a></li>
-              <li><a href="aboutUs.html" id="abtUs">About Us</a></li>
-              <li><a href="contact.html" id="contactUs">Contact Us</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="members.html">Members</a></li>
+              <li><a href="#faculty">Faculty</a></li>
+              <li><a href="aboutUs.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
           <div class="footer-social">
             <h2>Follow Us</h2>
             <ul>
-              <!-- <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li> -->
+              <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
               <li><a href="https://PROTONs-Discord@rb.gy/jfb8uh" target="_blank"><i class="fab fa-discord"></i></a></li>
               <li><a href="https://www.instagram.com/proton_nmamit?igsh=NGIwMWF1ZndqeWo3" target="_blank"><i class="fab fa-instagram"></i></a></li>
               <li><a href="https://www.linkedin.com/in/protonnmamit" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -85,7 +98,18 @@
           </div>
         </div>
       </footer>
-
+    
     <script src="script.js"> </script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        function myGeeks() {
+          loader.style.display="none";
+        }
+
+       setTimeout(myGeeks, 600);
+        
+      })
+    </script>
 </body>
 </html>
