@@ -165,9 +165,9 @@ header {
 }
 
 .evts {
-  width: 70vh; /* Example width */
-  height: 43.75vh; /* Height to maintain 16:10 ratio (width / 16 * 10) */
-  margin: 20px auto;
+  width:35% ; /* Example width */
+  height: 20%; /* Height to maintain 16:10 ratio (width / 16 * 10) */
+  margin: auto;
   text-align: center;
   border: 2px solid #ddd; /* Optional: border around the box */
   /* padding: 10px; */
