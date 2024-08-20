@@ -228,7 +228,7 @@ footer {
 }
 
 .footer-social {
-  flex-basis: 20%;
+  flex-basis: 100%;
   margin-top: 40px;
 }
 
@@ -238,7 +238,7 @@ footer {
 
 
 .footer-copyright {
-  flex-basis: 50%;
+  flex-basis: 100%;
   text-align: center;
   margin-top: 30px;
 }
@@ -282,7 +282,7 @@ footer {
 #preloader {
   background-color: black;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   z-index: 100;
   padding-top: 200px;
@@ -301,7 +301,7 @@ footer {
     }
     45%,
     55% {
-      width: 6.2em;
+      width: 10em;
     } /* adjust width based on content */
     90%,
     100% {
@@ -312,7 +312,7 @@ footer {
   .terminal-loader {
     border: 0.1em solid #333;
     background-color: #1a1a1a;
-    color: #0f0;
+    color: rgb(255, 255, 255);
     font-family: "Courier New", Courier, monospace;
     font-size: 1em;
     padding: 1.5em 1em;
@@ -373,7 +373,7 @@ footer {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 0.2em solid green; /* Cursor */
+    border-right: 0.2em solid rgb(255, 255, 255); /* Cursor */
     animation: typeAndDelete 4s steps(11) infinite,
       blinkCursor 0.2s step-end infinite alternate;
     margin-top: 1.5em;
