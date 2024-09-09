@@ -179,10 +179,25 @@ header {
 }
 
 .photo {
+  filter: blur(5px);
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensures the image covers the area without distortion */
   border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.tag {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  color: #fff;
+  margin: 8px;
+  padding: 5px;
+  font-size: 2vh;
+  text-align: center;
+  /* border-radius: 10px; */
 }
 
 .photo-caption {
@@ -192,10 +207,15 @@ header {
   right: 0;
   background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
   color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px ;
   padding: 5px;
-  font-size: 18px;
+  font-size: 2vh;
   text-align: center;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 footer {
